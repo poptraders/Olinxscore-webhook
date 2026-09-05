@@ -1,3 +1,9 @@
 name = "olinxscore-webhook"
 main = "worker.js"
 compatibility_date = "2026-01-01"
+
+[vars]
+AT_USERNAME = "sandbox"
+AT_SANDBOX = "true"
+MATCHDAY_PASS_LINK = "https://placeholder-invite-link.example.com"
+SEASON_TICKET_LINK = "https://placeholder-invite-link.example.com"
